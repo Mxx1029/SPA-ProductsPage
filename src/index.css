@@ -1,0 +1,46 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #daddcf;
+    color: hsl(100, 10, 10);
+}
+
+form {
+    margin: 1em;
+}
+
+header {
+    text-align: center;
+    padding: 1em;
+}
+
+header p {
+    padding: 1em;
+}
+
+.CreateProduct {
+    width: 60%;
+    margin: 1em auto;
+}
+
+.Products {
+    padding: 1em;
+    border-collapse: collapse;
+    width: 60%;
+    margin: 1em auto;
+}
+
+.Products td, th {
+    padding: 0.5em;
+    border: 1px solid black;
+}
+
+input, button {
+    display: block;
+    margin: 0.5em;
+}
